@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct MainApp: App {
     
-    // Here is we can choise which type storage we gonna use in our app
-    // Available 2 types .coreData and .userDefaults
+    // Here we can choose which type of storage to use in our app.
+    // Two options are available: .coreData and .userDefaults
     private let storageService = StorageService.makeStorage(type: .coreData)
     private let networkService = NetworkService()
     
