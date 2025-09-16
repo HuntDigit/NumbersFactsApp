@@ -6,17 +6,45 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CA682E5A2E7873AE00914E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA682E542E7873AE00914E98 /* Assets.xcassets */; };
+		CA682E5B2E7873AE00914E98 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA682E552E7873AE00914E98 /* MainApp.swift */; };
+		CA682E5C2E7873AE00914E98 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA682E562E7873AE00914E98 /* MainScreenView.swift */; };
+		CA682E5D2E7873AE00914E98 /* MainStorageContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA682E572E7873AE00914E98 /* MainStorageContainer.xcdatamodeld */; };
+		CA682E652E78742D00914E98 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA682E642E78742700914E98 /* Constants.swift */; };
+		CA682E672E78755500914E98 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA682E662E78754B00914E98 /* CoreDataHelper.swift */; };
+		CA682E692E7878B500914E98 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA682E682E7878AD00914E98 /* MainScreenViewModel.swift */; };
+		CA682E6E2E787A0700914E98 /* DescriptionSceenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA682E6D2E787A0700914E98 /* DescriptionSceenView.swift */; };
+		CA682E732E788BBD00914E98 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA682E722E788BBB00914E98 /* NetworkService.swift */; };
+		CA682E752E788BC500914E98 /* CoreDataStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA682E742E788BC100914E98 /* CoreDataStorageService.swift */; };
+		CA956A242E798EA100E759FD /* NumberTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA956A232E798EA100E759FD /* NumberTextView.swift */; };
+		CA956A262E798FAF00E759FD /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA956A252E798FAF00E759FD /* ButtonStyle.swift */; };
+		CA956A292E79A53100E759FD /* NumberDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA956A282E79A53100E759FD /* NumberDataModel.swift */; };
+		CA956A2B2E79A56900E759FD /* StorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA956A2A2E79A56000E759FD /* StorageProtocol.swift */; };
+		CA956A2D2E79AA2D00E759FD /* UserDefaultsStorageServece.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA956A2C2E79AA1F00E759FD /* UserDefaultsStorageServece.swift */; };
+		CA956A302E79B51700E759FD /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA956A2F2E79B51700E759FD /* StorageService.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CA0E38B02E786DB8002016A5 /* NumbersFactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumbersFactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA682E542E7873AE00914E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA682E552E7873AE00914E98 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		CA682E562E7873AE00914E98 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		CA682E592E7873AE00914E98 /* MainStorageContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MainStorageContainer.xcdatamodel; sourceTree = "<group>"; };
+		CA682E642E78742700914E98 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CA682E662E78754B00914E98 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		CA682E682E7878AD00914E98 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		CA682E6D2E787A0700914E98 /* DescriptionSceenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionSceenView.swift; sourceTree = "<group>"; };
+		CA682E722E788BBB00914E98 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CA682E742E788BC100914E98 /* CoreDataStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStorageService.swift; sourceTree = "<group>"; };
+		CA956A232E798EA100E759FD /* NumberTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextView.swift; sourceTree = "<group>"; };
+		CA956A252E798FAF00E759FD /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		CA956A282E79A53100E759FD /* NumberDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberDataModel.swift; sourceTree = "<group>"; };
+		CA956A2A2E79A56000E759FD /* StorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProtocol.swift; sourceTree = "<group>"; };
+		CA956A2C2E79AA1F00E759FD /* UserDefaultsStorageServece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorageServece.swift; sourceTree = "<group>"; };
+		CA956A2F2E79B51700E759FD /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		CAF2B0B92E78B266000749D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CA0E38B22E786DB8002016A5 /* NumbersFactsApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NumbersFactsApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CA0E38AD2E786DB8002016A5 /* Frameworks */ = {
@@ -32,7 +60,7 @@
 		CA0E38A72E786DB8002016A5 = {
 			isa = PBXGroup;
 			children = (
-				CA0E38B22E786DB8002016A5 /* NumbersFactsApp */,
+				CA682E582E7873AE00914E98 /* NumbersFactsApp */,
 				CA0E38B12E786DB8002016A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +71,126 @@
 				CA0E38B02E786DB8002016A5 /* NumbersFactsApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CA682E582E7873AE00914E98 /* NumbersFactsApp */ = {
+			isa = PBXGroup;
+			children = (
+				CA682E5E2E7873B000914E98 /* Resources */,
+				CA956A272E79A51500E759FD /* DataModel */,
+				CA682E632E78741C00914E98 /* Utilities */,
+				CA682E712E788BB100914E98 /* Services */,
+				CA682E5F2E7873D200914E98 /* MainApp */,
+			);
+			path = NumbersFactsApp;
+			sourceTree = "<group>";
+		};
+		CA682E5E2E7873B000914E98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAF2B0B92E78B266000749D2 /* Info.plist */,
+				CA682E542E7873AE00914E98 /* Assets.xcassets */,
+				CA682E572E7873AE00914E98 /* MainStorageContainer.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA682E5F2E7873D200914E98 /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				CA956B0E2E79D50E00E759FD /* SharedUI */,
+				CA682E6A2E7879C800914E98 /* DescriptionScreen */,
+				CA682E602E7873E500914E98 /* MainScreen */,
+				CA682E552E7873AE00914E98 /* MainApp.swift */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		CA682E602E7873E500914E98 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CA682E622E7873FD00914E98 /* ViewModel */,
+				CA682E612E7873EF00914E98 /* View */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		CA682E612E7873EF00914E98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA682E562E7873AE00914E98 /* MainScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA682E622E7873FD00914E98 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA682E682E7878AD00914E98 /* MainScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA682E632E78741C00914E98 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CA682E662E78754B00914E98 /* CoreDataHelper.swift */,
+				CA682E642E78742700914E98 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CA682E6A2E7879C800914E98 /* DescriptionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CA682E6B2E7879D900914E98 /* View */,
+			);
+			path = DescriptionScreen;
+			sourceTree = "<group>";
+		};
+		CA682E6B2E7879D900914E98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA682E6D2E787A0700914E98 /* DescriptionSceenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA682E712E788BB100914E98 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CA956A312E79B5E400E759FD /* Storrages */,
+				CA956A2F2E79B51700E759FD /* StorageService.swift */,
+				CA682E722E788BBB00914E98 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA956A272E79A51500E759FD /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA956A282E79A53100E759FD /* NumberDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CA956A312E79B5E400E759FD /* Storrages */ = {
+			isa = PBXGroup;
+			children = (
+				CA956A2A2E79A56000E759FD /* StorageProtocol.swift */,
+				CA956A2C2E79AA1F00E759FD /* UserDefaultsStorageServece.swift */,
+				CA682E742E788BC100914E98 /* CoreDataStorageService.swift */,
+			);
+			path = Storrages;
+			sourceTree = "<group>";
+		};
+		CA956B0E2E79D50E00E759FD /* SharedUI */ = {
+			isa = PBXGroup;
+			children = (
+				CA956A232E798EA100E759FD /* NumberTextView.swift */,
+				CA956A252E798FAF00E759FD /* ButtonStyle.swift */,
+			);
+			path = SharedUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +207,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CA0E38B22E786DB8002016A5 /* NumbersFactsApp */,
 			);
 			name = NumbersFactsApp;
 			packageProductDependencies = (
@@ -109,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA682E5A2E7873AE00914E98 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +265,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA956A2D2E79AA2D00E759FD /* UserDefaultsStorageServece.swift in Sources */,
+				CA682E672E78755500914E98 /* CoreDataHelper.swift in Sources */,
+				CA682E5B2E7873AE00914E98 /* MainApp.swift in Sources */,
+				CA956A262E798FAF00E759FD /* ButtonStyle.swift in Sources */,
+				CA682E732E788BBD00914E98 /* NetworkService.swift in Sources */,
+				CA956A292E79A53100E759FD /* NumberDataModel.swift in Sources */,
+				CA682E5C2E7873AE00914E98 /* MainScreenView.swift in Sources */,
+				CA682E6E2E787A0700914E98 /* DescriptionSceenView.swift in Sources */,
+				CA682E5D2E7873AE00914E98 /* MainStorageContainer.xcdatamodeld in Sources */,
+				CA682E652E78742D00914E98 /* Constants.swift in Sources */,
+				CA956A302E79B51700E759FD /* StorageService.swift in Sources */,
+				CA682E752E788BC500914E98 /* CoreDataStorageService.swift in Sources */,
+				CA956A242E798EA100E759FD /* NumberTextView.swift in Sources */,
+				CA956A2B2E79A56900E759FD /* StorageProtocol.swift in Sources */,
+				CA682E692E7878B500914E98 /* MainScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,15 +410,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NumbersFactsApp/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -265,6 +431,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.huntdigit.NumbersFactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -276,15 +443,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NumbersFactsApp/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,6 +464,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.huntdigit.NumbersFactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,6 +493,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA682E572E7873AE00914E98 /* MainStorageContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA682E592E7873AE00914E98 /* MainStorageContainer.xcdatamodel */,
+			);
+			currentVersion = CA682E592E7873AE00914E98 /* MainStorageContainer.xcdatamodel */;
+			path = MainStorageContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CA0E38A82E786DB8002016A5 /* Project object */;
 }
